@@ -1,0 +1,52 @@
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Entry Point.exe
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Entry Point.deps.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Entry Point.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Entry Point.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Entry Point.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Controllers.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Models.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Services.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Controllers.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Models.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net8.0\Services.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.AssemblyInfo.cs
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets\msbuild.Entry Point.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets\msbuild.build.Entry Point.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Entry Point.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Entry Point.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\scopedcss\bundle\Entry Point.styles.css
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Po.CFE1F0AA.Up2Date
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\refint\Entry Point.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.genruntimeconfig.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\ref\Entry Point.dll

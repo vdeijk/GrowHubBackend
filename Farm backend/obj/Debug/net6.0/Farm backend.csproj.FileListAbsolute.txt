@@ -1,0 +1,36 @@
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\appsettings.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Farm backend.staticwebassets.endpoints.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Farm backend.exe
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Farm backend.deps.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Farm backend.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Farm backend.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Farm backend.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.AssemblyInfo.cs
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\scopedcss\bundle\Farm backend.styles.css
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets\msbuild.Farm backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets\msbuild.Farm backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets\msbuild.build.Farm backend.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Farm backend.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Farm backend.props
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm bac.B59B573B.Up2Date
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\refint\Farm backend.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\Farm backend.genruntimeconfig.cache
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net6.0\ref\Farm backend.dll
