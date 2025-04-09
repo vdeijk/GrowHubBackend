@@ -1,6 +1,6 @@
 namespace Models
 {
-    public class WeatherForecast
+    public class WeatherForecastItem
     {
         public DateOnly Date { get; set; }
 

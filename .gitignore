@@ -1,0 +1,6 @@
+.vs/
+*.user
+*.userosscache
+*.suo
+*.dbmdl
+*.bak
