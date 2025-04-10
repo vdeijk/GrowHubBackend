@@ -1,3 +1,5 @@
+using Services;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
@@ -14,6 +16,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Add services
+builder.Services.AddHttpClient<WeatherService>();
+builder.Services.AddScoped<WeatherService>();
 
 var app = builder.Build();
 
