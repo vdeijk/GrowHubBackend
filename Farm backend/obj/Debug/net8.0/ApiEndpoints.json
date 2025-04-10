@@ -21,6 +21,27 @@
     "EndpointName": "GetAppointments"
   },
   {
+    "ContainingType": "BackendApp.Controllers.PlantController",
+    "Method": "Get",
+    "RelativePath": "api/Plant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Models.Plant, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetPlants"
+  },
+  {
     "ContainingType": "Controllers.TodoController",
     "Method": "Get",
     "RelativePath": "api/Todo",
@@ -40,6 +61,27 @@
       }
     ],
     "EndpointName": "GetTodoItems"
+  },
+  {
+    "ContainingType": "Controllers.TurnoverController",
+    "Method": "Get",
+    "RelativePath": "api/Turnover",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Models.TurnoverItem, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetTurnovers"
   },
   {
     "ContainingType": "Controllers.WeatherController",
