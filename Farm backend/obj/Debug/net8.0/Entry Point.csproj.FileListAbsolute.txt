@@ -45,9 +45,9 @@ C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\stati
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Entry Point.props
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\scopedcss\bundle\Entry Point.styles.css
-C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Po.CFE1F0AA.Up2Date
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.dll
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\refint\Entry Point.dll
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.pdb
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\Entry Point.genruntimeconfig.cache
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Debug\net8.0\ref\Entry Point.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm Backend\obj\Debug\net8.0\Entry Point.csproj.CopyComplete

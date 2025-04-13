@@ -9,8 +9,8 @@ C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.
 C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
 C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
 C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.sourcelink.json
-C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.csproj.Up2Date
 C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.dll
 C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\refint\Services.dll
 C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.pdb
 C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Services\obj\Debug\net8.0\Services.csproj.CopyComplete

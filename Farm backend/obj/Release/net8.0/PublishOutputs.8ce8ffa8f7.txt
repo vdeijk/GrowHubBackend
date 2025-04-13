@@ -1,0 +1,31 @@
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Entry Point.exe
+C:\Users\Gebruiker\source\repos\Farm backend\publish\appsettings.Development.json
+C:\Users\Gebruiker\source\repos\Farm backend\publish\appsettings.json
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Entry Point.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Entry Point.deps.json
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Entry Point.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Entry Point.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.Configuration.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.Extensions.Primitives.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Microsoft.OpenApi.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\System.IO.Pipelines.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\System.Text.Encodings.Web.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\System.Text.Json.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Controllers.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Models.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Services.dll
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Controllers.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Models.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\publish\Services.pdb

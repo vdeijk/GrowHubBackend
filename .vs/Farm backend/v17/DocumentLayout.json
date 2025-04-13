@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{3E58ED3F-5945-4A68-885A-D41775AD9071}|Solution Items{3E58ED3F-5945-4A68-885A-D41775AD9071}|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3E58ED3F-5945-4A68-885A-D41775AD9071}|Solution Items{3E58ED3F-5945-4A68-885A-D41775AD9071}|C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E58ED3F-5945-4A68-885A-D41775AD9071}|Solution Items{3E58ED3F-5945-4A68-885A-D41775AD9071}|solutionrelative:netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DEF84946-43E7-451C-AE36-321C28B5D371}|Farm backend\\Entry Point.csproj|c:\\users\\gebruiker\\source\\repos\\farm backend\\farm backend\\entry point.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DEF84946-43E7-451C-AE36-321C28B5D371}|Farm backend\\Entry Point.csproj|solutionrelative:farm backend\\entry point.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -22,8 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "netlify.toml",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\netlify.toml",
+              "RelativeDocumentMoniker": "netlify.toml",
+              "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\netlify.toml",
+              "RelativeToolTip": "netlify.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-13T18:06:29.571Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,27 +48,26 @@
               "RelativeDocumentMoniker": "global.json",
               "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\global.json",
               "RelativeToolTip": "global.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-13T12:24:30.981Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Entry Point",
+              "DocumentIndex": 2,
+              "Title": "Entry Point.csproj",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj",
               "RelativeDocumentMoniker": "Farm backend\\Entry Point.csproj",
               "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj",
               "RelativeToolTip": "Farm backend\\Entry Point.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-13T10:31:31.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T10:31:31.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Program.cs",
               "RelativeDocumentMoniker": "Farm backend\\Program.cs",
@@ -60,8 +75,7 @@
               "RelativeToolTip": "Farm backend\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:06:40.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T17:06:40.86Z"
             }
           ]
         }

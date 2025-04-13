@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		global.json = global.json
+		netlify.toml = netlify.toml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{9CC3332F-1754-4CD6-A2C4-5782C7203502}"
@@ -47,5 +48,3 @@ Global
 		SolutionGuid = {23EB4198-C4BC-40FC-954A-605F04D482F3}
 	EndGlobalSection
 EndGlobal
-
-
