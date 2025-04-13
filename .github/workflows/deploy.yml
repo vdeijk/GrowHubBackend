@@ -21,11 +21,8 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
-
-    - name: Publish
-      run: dotnet publish --configuration Release --no-restore --output ./publish
+    - name: Build and Publish Farm backend
+      run: dotnet publish Farm\ backend/Farm\ backend.csproj --configuration Release --output ./publish
 
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1.3
