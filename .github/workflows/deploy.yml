@@ -19,10 +19,10 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore "Farm backend/Farm backend.csproj"
 
     - name: Build and Publish Farm backend
-      run: dotnet publish Farm\ backend/Farm\ backend.csproj --configuration Release --output ./publish
+      run: dotnet publish "Farm backend/Farm backend.csproj" --configuration Release --output ./publish
 
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1.3
