@@ -1,0 +1,8 @@
+[build]
+  publish = "publish"
+  command = "dotnet publish --configuration Release --output ./publish"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
