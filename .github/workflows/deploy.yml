@@ -19,7 +19,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore "Farm backend/Farm backend.csproj"
+      run: dotnet restore "Farm backend/Entry Point.csproj"
 
     - name: Build and Publish Farm backend
       run: dotnet publish "Farm backend/Entry Point.csproj" --configuration Release --output ./publish
