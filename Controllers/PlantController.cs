@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using BackendApp.Data;
+using Data;
 using System.Collections.Generic;
 using Models;
 
-namespace BackendApp.Controllers
+namespace Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -18,10 +18,54 @@ namespace BackendApp.Controllers
         }
 
         [HttpGet(Name = "GetPlants")]
-        public IEnumerable<Plant> Get()
+        public IEnumerable<PlantItem> Get()
         {
             _logger.LogInformation("Fetching all plants");
             return PlantMockData.GetPlants();
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<PlantItem> Get(int id)
+        {
+            var plant = PlantMockData.GetPlantById(id);
+            if (plant == null)
+            {
+                return NotFound();
+            }
+            return plant;
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] PlantItem plant)
+        {
+            PlantMockData.AddPlant(plant);
+            return CreatedAtAction(nameof(Get), new { id = plant.Id }, plant);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] PlantItem updatedPlant)
+        {
+            var plant = PlantMockData.GetPlantById(id);
+            if (plant == null)
+            {
+                return NotFound();
+            }
+
+            PlantMockData.UpdatePlant(id, plant);
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var plant = PlantMockData.GetPlantById(id);
+            if (plant == null)
+            {
+                return NotFound();
+            }
+
+            PlantMockData.DeletePlant(id);
+            return NoContent();
         }
     }
 }

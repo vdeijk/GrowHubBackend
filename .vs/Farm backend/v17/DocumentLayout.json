@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEF84946-43E7-451C-AE36-321C28B5D371}|Farm backend\\Entry Point.csproj|c:\\users\\gebruiker\\source\\repos\\farm backend\\farm backend\\entry point.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DEF84946-43E7-451C-AE36-321C28B5D371}|Farm backend\\Entry Point.csproj|solutionrelative:farm backend\\entry point.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{92773AEE-EAB1-4850-A45B-5268870F1933}|Controllers\\Controllers.csproj|c:\\users\\gebruiker\\source\\repos\\farm backend\\controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92773AEE-EAB1-4850-A45B-5268870F1933}|Controllers\\Controllers.csproj|solutionrelative:controllers\\plantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E58ED3F-5945-4A68-885A-D41775AD9071}|Solution Items{3E58ED3F-5945-4A68-885A-D41775AD9071}|C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E58ED3F-5945-4A68-885A-D41775AD9071}|Solution Items{3E58ED3F-5945-4A68-885A-D41775AD9071}|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEF84946-43E7-451C-AE36-321C28B5D371}|Farm backend\\Entry Point.csproj|c:\\users\\gebruiker\\source\\repos\\farm backend\\farm backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEF84946-43E7-451C-AE36-321C28B5D371}|Farm backend\\Entry Point.csproj|solutionrelative:farm backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E58ED3F-5945-4A68-885A-D41775AD9071}|Solution Items{3E58ED3F-5945-4A68-885A-D41775AD9071}|C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3E58ED3F-5945-4A68-885A-D41775AD9071}|Solution Items{3E58ED3F-5945-4A68-885A-D41775AD9071}|solutionrelative:netlify.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{92773AEE-EAB1-4850-A45B-5268870F1933}|Controllers\\Controllers.csproj|c:\\users\\gebruiker\\source\\repos\\farm backend\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92773AEE-EAB1-4850-A45B-5268870F1933}|Controllers\\Controllers.csproj|solutionrelative:controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "netlify.toml",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\netlify.toml",
-              "RelativeDocumentMoniker": "netlify.toml",
-              "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\netlify.toml",
-              "RelativeToolTip": "netlify.toml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-13T18:06:29.571Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "global.json",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\global.json",
-              "RelativeDocumentMoniker": "global.json",
-              "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\global.json",
-              "RelativeToolTip": "global.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-13T12:24:30.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Entry Point.csproj",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj",
-              "RelativeDocumentMoniker": "Farm backend\\Entry Point.csproj",
-              "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj",
-              "RelativeToolTip": "Farm backend\\Entry Point.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-13T10:31:31.052Z",
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "Controllers\\LocationController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:20:18.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Program.cs",
-              "RelativeDocumentMoniker": "Farm backend\\Program.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Program.cs",
-              "RelativeToolTip": "Farm backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PlantController.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\PlantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlantController.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\PlantController.cs",
+              "RelativeToolTip": "Controllers\\PlantController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T17:06:40.86Z"
+              "WhenOpened": "2025-04-14T10:22:46.572Z",
+              "EditorCaption": ""
             }
           ]
         }

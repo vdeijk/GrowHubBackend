@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using Models;
 
-namespace BackendApp.Controllers
+namespace Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
