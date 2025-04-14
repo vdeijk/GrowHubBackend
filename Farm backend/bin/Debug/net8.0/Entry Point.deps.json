@@ -241,7 +241,10 @@
           "Swashbuckle.AspNetCore": "8.1.0"
         },
         "runtime": {
-          "Controllers.dll": {}
+          "Controllers.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Models/1.0.0": {
@@ -249,7 +252,10 @@
           "Swashbuckle.AspNetCore": "8.1.0"
         },
         "runtime": {
-          "Models.dll": {}
+          "Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Services/1.0.0": {
@@ -258,7 +264,10 @@
           "Swashbuckle.AspNetCore": "8.1.0"
         },
         "runtime": {
-          "Services.dll": {}
+          "Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

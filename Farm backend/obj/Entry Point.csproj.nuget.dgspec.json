@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm Backend\\Entry Point.csproj": {}
+    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj": {}
   },
   "projects": {
     "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\Controllers.csproj": {
@@ -45,6 +45,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Gebruiker\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.114/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm Backend\\Entry Point.csproj": {
+    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm Backend\\Entry Point.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj",
         "projectName": "Entry Point",
-        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm Backend\\Entry Point.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\Entry Point.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm Backend\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Farm backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,6 +129,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -166,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Gebruiker\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.114/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -204,6 +214,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -231,7 +246,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Gebruiker\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.114/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -273,6 +288,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -300,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Gebruiker\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.114/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

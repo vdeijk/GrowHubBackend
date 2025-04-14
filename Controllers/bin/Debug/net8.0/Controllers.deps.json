@@ -94,7 +94,10 @@
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
-          "Models.dll": {}
+          "Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Services/1.0.0": {
@@ -103,7 +106,10 @@
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
-          "Services.dll": {}
+          "Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
