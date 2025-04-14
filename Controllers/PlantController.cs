@@ -51,7 +51,7 @@ namespace Controllers
                 return NotFound();
             }
 
-            PlantMockData.UpdatePlant(id, plant);
+            PlantMockData.UpdatePlant(id, updatedPlant);
             return NoContent();
         }
 
