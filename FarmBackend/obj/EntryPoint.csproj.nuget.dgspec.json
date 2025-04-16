@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\FarmBackend\\EntryPoint.csproj": {}
+    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\Controllers.csproj": {
+    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\Controllers.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\Controllers.csproj",
         "projectName": "Controllers",
-        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\Controllers.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\Controllers.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj"
+              "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj"
               },
-              "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\Services.csproj"
+              "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\Services.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\FarmBackend\\EntryPoint.csproj": {
+    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\FarmBackend\\EntryPoint.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj",
         "projectName": "EntryPoint",
-        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\FarmBackend\\EntryPoint.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\FarmBackend\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,14 +113,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\Controllers.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\Controllers.csproj"
+              "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\Controllers.csproj": {
+                "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\Controllers.csproj"
               },
-              "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj"
+              "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj"
               },
-              "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\Services.csproj"
+              "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\Services.csproj"
               }
             }
           }
@@ -180,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj": {
+    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -250,14 +250,14 @@
         }
       }
     },
-    "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\Services.csproj": {
+    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Services\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -278,8 +278,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Models\\Models.csproj"
+              "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\Models.csproj"
               }
             }
           }

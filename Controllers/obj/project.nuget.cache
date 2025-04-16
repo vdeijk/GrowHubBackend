@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4746mBeoN+I=",
+  "dgSpecHash": "yU7MjWvg5gU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gebruiker\\source\\repos\\Farm backend\\Controllers\\Controllers.csproj",
+  "projectFilePath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\Controllers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
