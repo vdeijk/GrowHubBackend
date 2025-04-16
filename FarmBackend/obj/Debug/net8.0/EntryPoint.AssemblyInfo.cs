@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntryPoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ef3bb21afa27f67bb37a0f73585621e3adc5a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e73aedc255086f231dc02c5c235a6fa3dbd797c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntryPoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntryPoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
