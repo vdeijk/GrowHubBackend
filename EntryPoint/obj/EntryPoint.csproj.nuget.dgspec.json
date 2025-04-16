@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj": {}
+    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\EntryPoint\\EntryPoint.csproj": {}
   },
   "projects": {
     "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\Controllers.csproj": {
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj": {
+    "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\EntryPoint\\EntryPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\EntryPoint\\EntryPoint.csproj",
         "projectName": "EntryPoint",
-        "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\EntryPoint.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\EntryPoint\\EntryPoint.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\FarmBackend\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\EntryPoint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
