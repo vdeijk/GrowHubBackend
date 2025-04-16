@@ -1,0 +1,36 @@
+C:\Users\Gebruiker\source\repos\Farm backend\out\Entry Point.exe
+C:\Users\Gebruiker\source\repos\Farm backend\out\out\web.config
+C:\Users\Gebruiker\source\repos\Farm backend\out\appsettings.Development.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\appsettings.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\out\appsettings.Development.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\out\appsettings.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\out\Entry Point.deps.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\out\Entry Point.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\Entry Point.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Entry Point.deps.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\Entry Point.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\Entry Point.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.Configuration.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.Extensions.Primitives.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.OpenApi.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\System.IO.Pipelines.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\System.Text.Encodings.Web.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\System.Text.Json.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Controllers.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Models.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Services.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Controllers.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\out\Models.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\out\Services.pdb

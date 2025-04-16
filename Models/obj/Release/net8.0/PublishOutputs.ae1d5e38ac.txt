@@ -1,0 +1,7 @@
+C:\Users\Gebruiker\source\repos\Farm backend\out\Models.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Models.deps.json
+C:\Users\Gebruiker\source\repos\Farm backend\out\Models.pdb
+C:\Users\Gebruiker\source\repos\Farm backend\out\Microsoft.OpenApi.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gebruiker\source\repos\Farm backend\out\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -45,9 +45,14 @@ C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\sta
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.Entry Point.props
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\staticwebassets.pack.json
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\scopedcss\bundle\Entry Point.styles.css
-C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\Entry Point.csproj.CopyComplete
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\Entry Point.dll
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\refint\Entry Point.dll
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\Entry Point.pdb
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\Entry Point.genruntimeconfig.cache
 C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\ref\Entry Point.dll
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\obj\Release\net8.0\Entry Po.CFE1F0AA.Up2Date
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Release\net8.0\out\web.config
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Release\net8.0\out\appsettings.Development.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Release\net8.0\out\appsettings.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Release\net8.0\out\Entry Point.deps.json
+C:\Users\Gebruiker\source\repos\Farm backend\Farm backend\bin\Release\net8.0\out\Entry Point.runtimeconfig.json

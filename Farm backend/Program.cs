@@ -1,11 +1,12 @@
 using Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://localhost:5173", "http://localhost:5174")
+        policy.WithOrigins("http://localhost:5173", "http://localhost:5174", "https://vdeijk.github.io/GrowHubFrontend/")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -21,6 +22,9 @@ builder.Services.AddHttpClient<WeatherService>();
 builder.Services.AddScoped<WeatherService>();
 
 var app = builder.Build();
+
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+app.Urls.Add($"http://*:{port}");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
