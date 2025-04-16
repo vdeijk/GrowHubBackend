@@ -1,16 +1,18 @@
-# Use the official .NET SDK image for building the application
+# Use the official .NET SDK image as a build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 # Set the working directory
-WORKDIR /src
+WORKDIR /app
 
-# Copy the csproj file and restore any dependencies (via NuGet)
+# Copy the .csproj file and restore dependencies
 COPY ["FarmBackend/EntryPoint.csproj", "FarmBackend/"]
 RUN dotnet restore "FarmBackend/EntryPoint.csproj"
 
-# Copy the rest of the files and build the application
-COPY . .
-WORKDIR "/src/FarmBackend"
+# Copy the rest of the application code
+COPY FarmBackend/. ./FarmBackend/
+
+# Build the application
+WORKDIR "/app/FarmBackend"
 RUN dotnet publish "EntryPoint.csproj" -c Release -o /app/publish
 
 # Use the official .NET runtime image as a runtime stage
@@ -27,4 +29,5 @@ EXPOSE 5000
 
 # Set the entry point for the application
 ENTRYPOINT ["dotnet", "FarmBackend.dll"]
+
 
