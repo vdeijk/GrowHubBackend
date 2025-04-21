@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9668EA45-E8D0-491E-B109-541CC602F5D6}|EntryPoint\\EntryPoint.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\entrypoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9668EA45-E8D0-491E-B109-541CC602F5D6}|EntryPoint\\EntryPoint.csproj|solutionrelative:entrypoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A460F6A-13B9-460E-BD9C-192DF6207F5F}|Controllers\\Controllers.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A460F6A-13B9-460E-BD9C-192DF6207F5F}|Controllers\\Controllers.csproj|solutionrelative:controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\EntryPoint\\Program.cs",
-              "RelativeDocumentMoniker": "EntryPoint\\Program.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\EntryPoint\\Program.cs",
-              "RelativeToolTip": "EntryPoint\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:44:19.008Z",
+              "WhenOpened": "2025-04-21T09:26:20.15Z",
               "EditorCaption": ""
             }
           ]

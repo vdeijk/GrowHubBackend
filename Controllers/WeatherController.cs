@@ -14,12 +14,12 @@ namespace Controllers
             _weatherService = weatherService;
         }
 
-        [HttpGet("current")]
-        public async Task<IActionResult> GetWeatherData([FromQuery] string city)
+        [HttpGet("forecast")]
+        public async Task<IActionResult> GetWeatherForecast([FromQuery] string city, int days)
         {
             try
             {
-                var weatherData = await _weatherService.GetWeatherDataAsync(city);
+                var weatherData = await _weatherService.GetWeatherForecastAsync(city, days);
                 return Ok(weatherData);
             }
             catch (InvalidOperationException ex)

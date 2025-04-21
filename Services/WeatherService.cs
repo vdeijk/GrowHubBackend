@@ -26,5 +26,18 @@ namespace Services
 
             return await response.Content.ReadAsStringAsync();
         }
+
+        public async Task<string> GetWeatherForecastAsync(string location, int days)
+        {
+            if (string.IsNullOrEmpty(_apiKey))
+            {
+                throw new InvalidOperationException("API key is not configured.");
+            }
+
+            var response = await _httpClient.GetAsync($"{_baseUrl}/forecast.json?key={_apiKey}&q={location}&days={days}");
+            response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadAsStringAsync();
+        }
     }
 }

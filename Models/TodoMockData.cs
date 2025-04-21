@@ -1,10 +1,10 @@
-﻿namespace Models
+﻿using Microsoft.VisualBasic;
+
+namespace Models
 {
     public static class TodoMockData
     {
-        public static List<TodoItem> GetTasks()
-        {
-            return new List<TodoItem>
+        private static List<TodoItem> _todos = new List<TodoItem>
             {
                 new TodoItem
                 {
@@ -38,8 +38,41 @@
                 }
             };
 
+        public static IEnumerable<TodoItem> GetTodos()
+        {
+            return _todos;
+        }
+
+        public static TodoItem GetTodoById(int id)
+        {
+            return _todos.Find(location => location.Id == id);
+        }
+
+        public static void AddTodo(TodoItem location)
+        {
+            location.Id = _todos.Count > 0 ? _todos[^1].Id + 1 : 1;
+            _todos.Add(location);
+        }
+
+        public static void UpdateTodo(int id, TodoItem updateTodo)
+        {
+            var todo = _todos.Find(l => l.Id == id);
+            if (todo != null)
+            {
+                todo.Id = updateTodo.Id;
+                todo.Title = updateTodo.Title;
+                todo.DueDate = updateTodo.DueDate;
+                todo.Priority = updateTodo.Priority;
+                todo.IsCompleted = updateTodo.IsCompleted;
+                todo.Category = updateTodo.Category;
+                todo.Description = updateTodo.Description;
+            }
+        }
+
+        public static void DeleteTodo(int id)
+        {
+            _todos.RemoveAll(location => location.Id == id);
         }
     }
 }
-
 
