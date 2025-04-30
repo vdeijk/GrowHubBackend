@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using Models;
+using Models.ViewModels;
 
 namespace Controllers
 {

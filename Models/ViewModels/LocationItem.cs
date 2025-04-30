@@ -1,5 +1,4 @@
-﻿
-namespace Models
+﻿namespace Models.ViewModels
 {
     public class LocationItem
     {

@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Data;
-using System.Collections.Generic;
-using Models;
+using Models.ViewModels;
 
 namespace Controllers
 {

@@ -1,4 +1,6 @@
-﻿namespace Models
+﻿using Models.ViewModels;
+
+namespace Models
 {
     public static class TurnoverMockData
     {

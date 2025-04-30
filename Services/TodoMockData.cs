@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+﻿using Models;
 
 namespace Models
 {
@@ -11,9 +11,9 @@ namespace Models
                     Id = 1,
                     Title = "Task 1",
                     DueDate = new DateTime(2023, 12, 1),
-                    Priority = "high",
-                    IsCompleted = false,
-                    Category = "work",
+                    Priority = Priority.High,
+                    TodoStatus = TodoStatus.Completed,
+                    Category = Category.Work,
                     Description = "This is a description for task 1"
                 },
                 new TodoItem
@@ -21,9 +21,9 @@ namespace Models
                     Id = 2,
                     Title = "Task 2",
                     DueDate = new DateTime(2023, 12, 5),
-                    Priority = "medium",
-                    IsCompleted = false,
-                    Category = "work",
+                    Priority = Priority.High,
+                    TodoStatus = TodoStatus.Completed,
+                    Category = Category.Work,
                     Description = "This is a description for task 2"
                 },
                 new TodoItem
@@ -31,9 +31,9 @@ namespace Models
                     Id = 3,
                     Title = "Task 3",
                     DueDate = new DateTime(2023, 12, 10),
-                    Priority = "low",
-                    IsCompleted = true,
-                    Category = "work",
+                    Priority = Priority.High,
+                    TodoStatus = TodoStatus.Completed,
+                    Category = Category.Work,
                     Description = "This is a description for task 3"
                 }
             };
@@ -54,18 +54,13 @@ namespace Models
             _todos.Add(location);
         }
 
-        public static void UpdateTodo(int id, TodoItem updateTodo)
+        public static void UpdateTodo(int id, TodoItem updatecTodo)
         {
-            var todo = _todos.Find(l => l.Id == id);
-            if (todo != null)
+            var index = _todos.FindIndex(p => p.Id == id);
+            if (index != -1)
             {
-                todo.Id = updateTodo.Id;
-                todo.Title = updateTodo.Title;
-                todo.DueDate = updateTodo.DueDate;
-                todo.Priority = updateTodo.Priority;
-                todo.IsCompleted = updateTodo.IsCompleted;
-                todo.Category = updateTodo.Category;
-                todo.Description = updateTodo.Description;
+                updatecTodo.Id = id;
+                _todos[index] = updatecTodo;
             }
         }
 
@@ -75,4 +70,3 @@ namespace Models
         }
     }
 }
-

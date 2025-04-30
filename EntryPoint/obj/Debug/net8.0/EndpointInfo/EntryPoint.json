@@ -578,6 +578,175 @@
           }
         }
       }
+    },
+    "/api/YourCrops": {
+      "get": {
+        "tags": [
+          "YourCrops"
+        ],
+        "operationId": "GetCrops",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/YourCropItem"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/YourCropItem"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/YourCropItem"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "YourCrops"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/YourCropItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/YourCropItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/YourCropItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/YourCrops/{id}": {
+      "get": {
+        "tags": [
+          "YourCrops"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/YourCropItem"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/YourCropItem"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/YourCropItem"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "YourCrops"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/YourCropItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/YourCropItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/YourCropItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "YourCrops"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -611,60 +780,99 @@
             "type": "string",
             "nullable": true
           },
-          "genus": {
-            "type": "string",
-            "nullable": true
-          },
-          "scientificName": {
-            "type": "string",
-            "nullable": true
-          },
           "id": {
             "type": "integer",
             "format": "int32",
             "nullable": true
           },
           "sunPreference": {
+            "enum": [
+              "FullSun",
+              "PartialShade",
+              "FullShade"
+            ],
             "type": "string",
             "nullable": true
           },
           "waterNeeds": {
+            "enum": [
+              "Low",
+              "Medium",
+              "High"
+            ],
             "type": "string",
             "nullable": true
           },
           "soilType": {
+            "enum": [
+              "Loam",
+              "Sand",
+              "Clay",
+              "Silt",
+              "Peat",
+              "Chalk"
+            ],
             "type": "string",
             "nullable": true
           },
           "soilPH": {
+            "enum": [
+              "Acidic",
+              "Neutral",
+              "Alkaline"
+            ],
             "type": "string",
             "nullable": true
           },
           "pruning": {
+            "enum": [
+              "Light",
+              "Moderate",
+              "Heavy"
+            ],
             "type": "string",
             "nullable": true
           },
-          "stringtemperatureRange": {
+          "climateZone": {
+            "enum": [
+              "Arid",
+              "SemiArid",
+              "Mediterranean",
+              "Temperate",
+              "Tropical",
+              "Subtropical"
+            ],
             "type": "string",
             "nullable": true
           },
           "plantType": {
+            "enum": [
+              "Tree",
+              "Shrub",
+              "Flower",
+              "Vine",
+              "Herb",
+              "Grass"
+            ],
             "type": "string",
             "nullable": true
           },
           "growthRate": {
-            "type": "string",
-            "nullable": true
-          },
-          "matureSize": {
-            "type": "string",
-            "nullable": true
-          },
-          "bloomTime": {
+            "enum": [
+              "Slow",
+              "Medium",
+              "Fast"
+            ],
             "type": "string",
             "nullable": true
           },
           "fertilizerNeeds": {
+            "enum": [
+              "None",
+              "Low",
+              "Medium",
+              "High"
+            ],
             "type": "string",
             "nullable": true
           }
@@ -682,20 +890,35 @@
             "type": "string",
             "nullable": true
           },
-          "isCompleted": {
-            "type": "boolean"
+          "todoStatus": {
+            "enum": [
+              "NotStarted",
+              "InProgress",
+              "Completed",
+              "OnHold",
+              "Cancelled"
+            ],
+            "type": "string"
           },
           "dueDate": {
             "type": "string",
             "format": "date-time"
           },
           "priority": {
-            "type": "string",
-            "nullable": true
+            "enum": [
+              "High",
+              "Medium",
+              "Low"
+            ],
+            "type": "string"
           },
           "category": {
-            "type": "string",
-            "nullable": true
+            "enum": [
+              "Work",
+              "Personal",
+              "Other"
+            ],
+            "type": "string"
           },
           "description": {
             "type": "string",
@@ -714,6 +937,63 @@
           "amount": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "YourCropItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "commonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastWatered": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastFertilized": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastPruned": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastHarvested": {
+            "type": "string",
+            "nullable": true
+          },
+          "healthStatus": {
+            "enum": [
+              "Poor",
+              "Fair",
+              "Good",
+              "VeryGood",
+              "Excellent"
+            ],
+            "type": "string"
+          },
+          "growthStage": {
+            "enum": [
+              "Germination",
+              "Seedling",
+              "Vegetative",
+              "Budding",
+              "Flowering",
+              "Fruiting",
+              "Maturity"
+            ],
+            "type": "string"
           }
         },
         "additionalProperties": false

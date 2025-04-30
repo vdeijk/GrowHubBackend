@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Models;
+using Models.ViewModels;
 using System.Collections.Generic;
 
 namespace Controllers
