@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EC2D941-7112-46CF-8DF5-8C24A3949EF1}|Services\\Services.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\services\\yourcropmockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC2D941-7112-46CF-8DF5-8C24A3949EF1}|Services\\Services.csproj|solutionrelative:services\\yourcropmockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\models\\locationmockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|solutionrelative:models\\locationmockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\models\\viewmodels\\yourcropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|solutionrelative:models\\viewmodels\\yourcropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A460F6A-13B9-460E-BD9C-192DF6207F5F}|Controllers\\Controllers.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A460F6A-13B9-460E-BD9C-192DF6207F5F}|Controllers\\Controllers.csproj|solutionrelative:controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YourCropItem.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\YourCropItem.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\YourCropItem.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\YourCropItem.cs",
-              "RelativeToolTip": "Models\\ViewModels\\YourCropItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T12:10:29.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocationMockData.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\LocationMockData.cs",
-              "RelativeDocumentMoniker": "Models\\LocationMockData.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\LocationMockData.cs",
-              "RelativeToolTip": "Models\\LocationMockData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T12:10:07.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LocationController.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\LocationController.cs",
               "RelativeDocumentMoniker": "Controllers\\LocationController.cs",
               "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\LocationController.cs",
               "RelativeToolTip": "Controllers\\LocationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwC0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T12:09:41.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "YourCropMockData.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\YourCropMockData.cs",
-              "RelativeDocumentMoniker": "Services\\YourCropMockData.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\YourCropMockData.cs",
-              "RelativeToolTip": "Services\\YourCropMockData.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T11:59:38.761Z",
+              "WhenOpened": "2025-05-05T17:23:19.437Z",
               "EditorCaption": ""
             }
           ]

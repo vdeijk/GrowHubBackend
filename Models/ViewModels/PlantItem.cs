@@ -6,14 +6,20 @@ namespace Models.ViewModels
     {
         public string CommonName { get; set; } = string.Empty;
         public int? Id { get; set; }
-        public SunPreference? SunPreference { get; set; }
-        public WaterNeeds? WaterNeeds { get; set; }
-        public SoilType? SoilType { get; set; }
-        public SoilPH? SoilPH { get; set; }
-        public Pruning? Pruning { get; set; }
-        public ClimateZone? ClimateZone { get; set; }
-        public PlantType? PlantType { get; set; }
-        public GrowthRate? GrowthRate { get; set; }
-        public FertilizerNeeds? FertilizerNeeds { get; set; }
+        public int WaterCycle { get; set; }
+        public int PruningCycle { get; set; }
+        public int FertilizationCycle { get; set; }
+        public int HarvestCycle { get; set; }
+        public string? Notes { get; set; }
+        public Month HarvestStart { get; set; }
+        public Month HarvestEnd { get; set; }
+        public Month PruningStart { get; set; }
+        public Month PruningEnd { get; set; }
+        public Month FertilizingStart { get; set; }
+        public Month FertilizingEnd { get; set; }
+        public float PHMin { get; set; }
+        public float PHMax { get; set; }
+        public int TemperatureMin { get; set; }
+        public int TemperatureMax { get; set; }
     }
 }

@@ -5,8 +5,12 @@ namespace Models
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public enum Category
     {
-        Work,
-        Personal,
-        Other,
+        Fertilize,
+        Harvest,
+        Prune,
+        Water,
+        Sow,
+        Measure,
+        Other
     }
 }

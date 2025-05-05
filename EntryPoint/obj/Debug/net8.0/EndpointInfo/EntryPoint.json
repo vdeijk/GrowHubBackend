@@ -173,6 +173,175 @@
         }
       }
     },
+    "/api/Measurements": {
+      "get": {
+        "tags": [
+          "Measurements"
+        ],
+        "operationId": "GetMeasurements",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MeasurementItem"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MeasurementItem"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MeasurementItem"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Measurements"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasurementItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasurementItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasurementItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Measurements/{id}": {
+      "get": {
+        "tags": [
+          "Measurements"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/MeasurementItem"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MeasurementItem"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MeasurementItem"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Measurements"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasurementItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasurementItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeasurementItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Measurements"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Plant": {
       "get": {
         "tags": [
@@ -762,6 +931,10 @@
             "type": "string",
             "nullable": true
           },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
           "latitude": {
             "type": "number",
             "format": "double"
@@ -769,6 +942,72 @@
           "longitude": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MeasurementItem": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "batchId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soilDryness": {
+            "enum": [
+              "VeryWet",
+              "Wet",
+              "Moist",
+              "Dry",
+              "VeryDry"
+            ],
+            "type": "string"
+          },
+          "soilPH": {
+            "type": "number",
+            "format": "float"
+          },
+          "healthStatus": {
+            "enum": [
+              "Poor",
+              "Fair",
+              "Good",
+              "VeryGood",
+              "Excellent"
+            ],
+            "type": "string"
+          },
+          "growthStage": {
+            "enum": [
+              "Germination",
+              "Seedling",
+              "Vegetative",
+              "Budding",
+              "Flowering",
+              "Fruiting",
+              "Maturity"
+            ],
+            "type": "string"
+          },
+          "temperature": {
+            "type": "number",
+            "format": "float"
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -785,96 +1024,143 @@
             "format": "int32",
             "nullable": true
           },
-          "sunPreference": {
-            "enum": [
-              "FullSun",
-              "PartialShade",
-              "FullShade"
-            ],
+          "waterCycle": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pruningCycle": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fertilizationCycle": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "harvestCycle": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "notes": {
             "type": "string",
             "nullable": true
           },
-          "waterNeeds": {
+          "harvestStart": {
             "enum": [
-              "Low",
-              "Medium",
-              "High"
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
             ],
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
-          "soilType": {
+          "harvestEnd": {
             "enum": [
-              "Loam",
-              "Sand",
-              "Clay",
-              "Silt",
-              "Peat",
-              "Chalk"
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
             ],
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
-          "soilPH": {
+          "pruningStart": {
             "enum": [
-              "Acidic",
-              "Neutral",
-              "Alkaline"
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
             ],
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
-          "pruning": {
+          "pruningEnd": {
             "enum": [
-              "Light",
-              "Moderate",
-              "Heavy"
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
             ],
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
-          "climateZone": {
+          "fertilizingStart": {
             "enum": [
-              "Arid",
-              "SemiArid",
-              "Mediterranean",
-              "Temperate",
-              "Tropical",
-              "Subtropical"
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
             ],
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
-          "plantType": {
+          "fertilizingEnd": {
             "enum": [
-              "Tree",
-              "Shrub",
-              "Flower",
-              "Vine",
-              "Herb",
-              "Grass"
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
             ],
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
-          "growthRate": {
-            "enum": [
-              "Slow",
-              "Medium",
-              "Fast"
-            ],
-            "type": "string",
-            "nullable": true
+          "phMin": {
+            "type": "number",
+            "format": "float"
           },
-          "fertilizerNeeds": {
-            "enum": [
-              "None",
-              "Low",
-              "Medium",
-              "High"
-            ],
-            "type": "string",
-            "nullable": true
+          "phMax": {
+            "type": "number",
+            "format": "float"
+          },
+          "temperatureMin": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureMax": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -886,9 +1172,16 @@
             "type": "integer",
             "format": "int32"
           },
+          "batchId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "title": {
             "type": "string",
             "nullable": true
+          },
+          "autoGenerated": {
+            "type": "boolean"
           },
           "todoStatus": {
             "enum": [
@@ -914,13 +1207,17 @@
           },
           "category": {
             "enum": [
-              "Work",
-              "Personal",
+              "Fertilize",
+              "Harvest",
+              "Prune",
+              "Water",
+              "Sow",
+              "Measure",
               "Other"
             ],
             "type": "string"
           },
-          "description": {
+          "notes": {
             "type": "string",
             "nullable": true
           }
@@ -949,51 +1246,54 @@
             "format": "int32",
             "nullable": true
           },
+          "cropId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "commonName": {
             "type": "string",
             "nullable": true
+          },
+          "amount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "databaseId": {
+            "type": "integer",
+            "format": "int32"
           },
           "location": {
             "type": "string",
             "nullable": true
           },
+          "planted": {
+            "type": "string",
+            "format": "date-time"
+          },
           "lastWatered": {
             "type": "string",
+            "format": "date-time",
             "nullable": true
           },
           "lastFertilized": {
             "type": "string",
+            "format": "date-time",
             "nullable": true
           },
           "lastPruned": {
             "type": "string",
+            "format": "date-time",
             "nullable": true
           },
           "lastHarvested": {
             "type": "string",
+            "format": "date-time",
             "nullable": true
           },
-          "healthStatus": {
-            "enum": [
-              "Poor",
-              "Fair",
-              "Good",
-              "VeryGood",
-              "Excellent"
-            ],
-            "type": "string"
-          },
-          "growthStage": {
-            "enum": [
-              "Germination",
-              "Seedling",
-              "Vegetative",
-              "Budding",
-              "Flowering",
-              "Fruiting",
-              "Maturity"
-            ],
-            "type": "string"
+          "notes": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

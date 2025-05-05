@@ -99,6 +99,106 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Controllers.MeasurementsController",
+    "Method": "Get",
+    "RelativePath": "api/Measurements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Models.MeasurementItem, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetMeasurements"
+  },
+  {
+    "ContainingType": "Controllers.MeasurementsController",
+    "Method": "Post",
+    "RelativePath": "api/Measurements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plant",
+        "Type": "Models.MeasurementItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Controllers.MeasurementsController",
+    "Method": "Get",
+    "RelativePath": "api/Measurements/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Models.MeasurementItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Controllers.MeasurementsController",
+    "Method": "Put",
+    "RelativePath": "api/Measurements/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedPlant",
+        "Type": "Models.MeasurementItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Controllers.MeasurementsController",
+    "Method": "Delete",
+    "RelativePath": "api/Measurements/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Controllers.PlantController",
     "Method": "Get",
     "RelativePath": "api/Plant",
