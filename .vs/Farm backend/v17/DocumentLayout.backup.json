@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\models\\viewmodels\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|solutionrelative:models\\viewmodels\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\models\\viewmodels\\yourcropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|solutionrelative:models\\viewmodels\\yourcropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC2D941-7112-46CF-8DF5-8C24A3949EF1}|Services\\Services.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\services\\yourcropsmockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC2D941-7112-46CF-8DF5-8C24A3949EF1}|Services\\Services.csproj|solutionrelative:services\\yourcropsmockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\models\\viewmodels\\measurementitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3BCC090-B216-4BAD-A68A-AADC1F8FD7B2}|Models\\Models.csproj|solutionrelative:models\\viewmodels\\measurementitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A460F6A-13B9-460E-BD9C-192DF6207F5F}|Controllers\\Controllers.csproj|c:\\users\\gebruiker\\repos\\farming be\\growhubbackend\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A460F6A-13B9-460E-BD9C-192DF6207F5F}|Controllers\\Controllers.csproj|solutionrelative:controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YourCropsMockData.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\YourCropsMockData.cs",
-              "RelativeDocumentMoniker": "Services\\YourCropsMockData.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Services\\YourCropsMockData.cs",
-              "RelativeToolTip": "Services\\YourCropsMockData.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:46:43.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MeasurementItem.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\MeasurementItem.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\MeasurementItem.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\MeasurementItem.cs",
-              "RelativeToolTip": "Models\\ViewModels\\MeasurementItem.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:46:31.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\TodoItem.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\TodoItem.cs",
-              "RelativeToolTip": "Models\\ViewModels\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "Controllers\\LocationController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T08:46:18.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "YourCropItem.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\YourCropItem.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\YourCropItem.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\repos\\Farming BE\\GrowHubBackend\\Models\\ViewModels\\YourCropItem.cs",
-              "RelativeToolTip": "Models\\ViewModels\\YourCropItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T07:59:25.549Z",
+              "WhenOpened": "2025-05-05T17:23:19.437Z",
               "EditorCaption": ""
             }
           ]

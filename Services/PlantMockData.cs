@@ -32,7 +32,7 @@ namespace Data
                 },
                  new PlantItem
                 {
-                    Id=0,
+                    Id=1,
                     CommonName = "Raspberry",
                     WaterCycle = 3,
                     PruningCycle = 365,
