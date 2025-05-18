@@ -5,11 +5,12 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Location": {
+    "/api/Batch": {
       "get": {
         "tags": [
-          "Location"
+          "Batch"
         ],
+        "operationId": "GetBatches",
         "responses": {
           "200": {
             "description": "OK",
@@ -18,7 +19,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/LocationItem"
+                    "$ref": "#/components/schemas/BatchItem"
                   }
                 }
               },
@@ -26,7 +27,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/LocationItem"
+                    "$ref": "#/components/schemas/BatchItem"
                   }
                 }
               },
@@ -34,7 +35,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/LocationItem"
+                    "$ref": "#/components/schemas/BatchItem"
                   }
                 }
               }
@@ -44,23 +45,23 @@
       },
       "post": {
         "tags": [
-          "Location"
+          "Batch"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/LocationItem"
+                "$ref": "#/components/schemas/BatchItem"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/LocationItem"
+                "$ref": "#/components/schemas/BatchItem"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/LocationItem"
+                "$ref": "#/components/schemas/BatchItem"
               }
             }
           }
@@ -72,10 +73,10 @@
         }
       }
     },
-    "/api/Location/{id}": {
+    "/api/Batch/{id}": {
       "get": {
         "tags": [
-          "Location"
+          "Batch"
         ],
         "parameters": [
           {
@@ -83,8 +84,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -94,17 +95,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/LocationItem"
+                  "$ref": "#/components/schemas/BatchItem"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LocationItem"
+                  "$ref": "#/components/schemas/BatchItem"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LocationItem"
+                  "$ref": "#/components/schemas/BatchItem"
                 }
               }
             }
@@ -113,7 +114,7 @@
       },
       "put": {
         "tags": [
-          "Location"
+          "Batch"
         ],
         "parameters": [
           {
@@ -121,8 +122,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -130,17 +131,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/LocationItem"
+                "$ref": "#/components/schemas/BatchItem"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/LocationItem"
+                "$ref": "#/components/schemas/BatchItem"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/LocationItem"
+                "$ref": "#/components/schemas/BatchItem"
               }
             }
           }
@@ -153,7 +154,7 @@
       },
       "delete": {
         "tags": [
-          "Location"
+          "Batch"
         ],
         "parameters": [
           {
@@ -161,8 +162,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -173,12 +174,12 @@
         }
       }
     },
-    "/api/Measurements": {
+    "/api/Crop": {
       "get": {
         "tags": [
-          "Measurements"
+          "Crop"
         ],
-        "operationId": "GetMeasurements",
+        "operationId": "GetCrops",
         "responses": {
           "200": {
             "description": "OK",
@@ -187,7 +188,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/MeasurementItem"
+                    "$ref": "#/components/schemas/CropItem"
                   }
                 }
               },
@@ -195,7 +196,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/MeasurementItem"
+                    "$ref": "#/components/schemas/CropItem"
                   }
                 }
               },
@@ -203,7 +204,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/MeasurementItem"
+                    "$ref": "#/components/schemas/CropItem"
                   }
                 }
               }
@@ -213,23 +214,23 @@
       },
       "post": {
         "tags": [
-          "Measurements"
+          "Crop"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/MeasurementItem"
+                "$ref": "#/components/schemas/CropItem"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/MeasurementItem"
+                "$ref": "#/components/schemas/CropItem"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/MeasurementItem"
+                "$ref": "#/components/schemas/CropItem"
               }
             }
           }
@@ -241,10 +242,10 @@
         }
       }
     },
-    "/api/Measurements/{id}": {
+    "/api/Crop/{id}": {
       "get": {
         "tags": [
-          "Measurements"
+          "Crop"
         ],
         "parameters": [
           {
@@ -252,8 +253,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -263,17 +264,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/MeasurementItem"
+                  "$ref": "#/components/schemas/CropItem"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/MeasurementItem"
+                  "$ref": "#/components/schemas/CropItem"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/MeasurementItem"
+                  "$ref": "#/components/schemas/CropItem"
                 }
               }
             }
@@ -282,7 +283,7 @@
       },
       "put": {
         "tags": [
-          "Measurements"
+          "Crop"
         ],
         "parameters": [
           {
@@ -290,8 +291,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -299,17 +300,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/MeasurementItem"
+                "$ref": "#/components/schemas/CropItem"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/MeasurementItem"
+                "$ref": "#/components/schemas/CropItem"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/MeasurementItem"
+                "$ref": "#/components/schemas/CropItem"
               }
             }
           }
@@ -322,7 +323,7 @@
       },
       "delete": {
         "tags": [
-          "Measurements"
+          "Crop"
         ],
         "parameters": [
           {
@@ -330,8 +331,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -342,12 +343,24 @@
         }
       }
     },
-    "/api/Plant": {
+    "/api/Database/seed": {
+      "post": {
+        "tags": [
+          "Database"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Field": {
       "get": {
         "tags": [
-          "Plant"
+          "Field"
         ],
-        "operationId": "GetPlants",
+        "operationId": "GetFields",
         "responses": {
           "200": {
             "description": "OK",
@@ -356,7 +369,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/PlantItem"
+                    "$ref": "#/components/schemas/FieldItem"
                   }
                 }
               },
@@ -364,7 +377,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/PlantItem"
+                    "$ref": "#/components/schemas/FieldItem"
                   }
                 }
               },
@@ -372,7 +385,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/PlantItem"
+                    "$ref": "#/components/schemas/FieldItem"
                   }
                 }
               }
@@ -382,23 +395,23 @@
       },
       "post": {
         "tags": [
-          "Plant"
+          "Field"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlantItem"
+                "$ref": "#/components/schemas/FieldItem"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlantItem"
+                "$ref": "#/components/schemas/FieldItem"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PlantItem"
+                "$ref": "#/components/schemas/FieldItem"
               }
             }
           }
@@ -410,10 +423,10 @@
         }
       }
     },
-    "/api/Plant/{id}": {
+    "/api/Field/{id}": {
       "get": {
         "tags": [
-          "Plant"
+          "Field"
         ],
         "parameters": [
           {
@@ -421,8 +434,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -432,17 +445,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PlantItem"
+                  "$ref": "#/components/schemas/FieldItem"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PlantItem"
+                  "$ref": "#/components/schemas/FieldItem"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PlantItem"
+                  "$ref": "#/components/schemas/FieldItem"
                 }
               }
             }
@@ -451,7 +464,7 @@
       },
       "put": {
         "tags": [
-          "Plant"
+          "Field"
         ],
         "parameters": [
           {
@@ -459,8 +472,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -468,17 +481,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlantItem"
+                "$ref": "#/components/schemas/FieldItem"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlantItem"
+                "$ref": "#/components/schemas/FieldItem"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PlantItem"
+                "$ref": "#/components/schemas/FieldItem"
               }
             }
           }
@@ -491,7 +504,7 @@
       },
       "delete": {
         "tags": [
-          "Plant"
+          "Field"
         ],
         "parameters": [
           {
@@ -499,8 +512,177 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reading": {
+      "get": {
+        "tags": [
+          "Reading"
+        ],
+        "operationId": "GetReadings",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReadingItem"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReadingItem"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReadingItem"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Reading"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReadingItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReadingItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReadingItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reading/{id}": {
+      "get": {
+        "tags": [
+          "Reading"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadingItem"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadingItem"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadingItem"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Reading"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReadingItem"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReadingItem"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReadingItem"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Reading"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -516,7 +698,7 @@
         "tags": [
           "Todo"
         ],
-        "operationId": "GetTodoItems",
+        "operationId": "GetAllTodos",
         "responses": {
           "200": {
             "description": "OK",
@@ -590,8 +772,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -628,8 +810,8 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
@@ -668,53 +850,14 @@
             "in": "path",
             "required": true,
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "string",
+              "format": "uuid"
             }
           }
         ],
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Turnover": {
-      "get": {
-        "tags": [
-          "Turnover"
-        ],
-        "operationId": "GetTurnovers",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TurnoverItem"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TurnoverItem"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/TurnoverItem"
-                  }
-                }
-              }
-            }
           }
         }
       }
@@ -747,272 +890,71 @@
           }
         }
       }
-    },
-    "/api/YourCrops": {
-      "get": {
-        "tags": [
-          "YourCrops"
-        ],
-        "operationId": "GetCrops",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/YourCropItem"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/YourCropItem"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/YourCropItem"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "YourCrops"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/YourCropItem"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/YourCropItem"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/YourCropItem"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/YourCrops/{id}": {
-      "get": {
-        "tags": [
-          "YourCrops"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/YourCropItem"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/YourCropItem"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/YourCropItem"
-                }
-              }
-            }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "YourCrops"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/YourCropItem"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/YourCropItem"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/YourCropItem"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "YourCrops"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
     }
   },
   "components": {
     "schemas": {
-      "LocationItem": {
+      "BatchItem": {
         "type": "object",
         "properties": {
           "id": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "cropId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "commonName": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "databaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "location": {
             "type": "string",
+            "nullable": true
+          },
+          "planted": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lastWatered": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lastFertilized": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lastPruned": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lastHarvested": {
+            "type": "string",
+            "format": "date-time",
             "nullable": true
           },
           "notes": {
-            "type": "string",
-            "nullable": true
-          },
-          "latitude": {
-            "type": "number",
-            "format": "double"
-          },
-          "longitude": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "MeasurementItem": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "batchId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "soilDryness": {
-            "enum": [
-              "VeryWet",
-              "Wet",
-              "Moist",
-              "Dry",
-              "VeryDry"
-            ],
-            "type": "string"
-          },
-          "soilPH": {
-            "type": "number",
-            "format": "float"
-          },
-          "healthStatus": {
-            "enum": [
-              "Poor",
-              "Fair",
-              "Good",
-              "VeryGood",
-              "Excellent"
-            ],
-            "type": "string"
-          },
-          "growthStage": {
-            "enum": [
-              "Germination",
-              "Seedling",
-              "Vegetative",
-              "Budding",
-              "Flowering",
-              "Fruiting",
-              "Maturity"
-            ],
-            "type": "string"
-          },
-          "temperature": {
-            "type": "number",
-            "format": "float"
-          },
-          "notes": {
-            "type": "string",
-            "nullable": true
-          },
-          "date": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "PlantItem": {
+      "CropItem": {
         "type": "object",
         "properties": {
           "commonName": {
@@ -1020,9 +962,8 @@
             "nullable": true
           },
           "id": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "type": "string",
+            "format": "uuid"
           },
           "waterCycle": {
             "type": "integer",
@@ -1165,16 +1106,108 @@
         },
         "additionalProperties": false
       },
+      "FieldItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitude": {
+            "type": "number",
+            "format": "double"
+          },
+          "longitude": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReadingItem": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "batchId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "soilDryness": {
+            "enum": [
+              "VeryWet",
+              "Wet",
+              "Moist",
+              "Dry",
+              "VeryDry"
+            ],
+            "type": "string"
+          },
+          "soilPH": {
+            "type": "number",
+            "format": "float"
+          },
+          "healthStatus": {
+            "enum": [
+              "Poor",
+              "Fair",
+              "Good",
+              "VeryGood",
+              "Excellent"
+            ],
+            "type": "string"
+          },
+          "growthStage": {
+            "enum": [
+              "Germination",
+              "Seedling",
+              "Vegetative",
+              "Budding",
+              "Flowering",
+              "Fruiting",
+              "Maturity"
+            ],
+            "type": "string"
+          },
+          "temperature": {
+            "type": "number",
+            "format": "float"
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "TodoItem": {
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "batchId": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "format": "uuid"
           },
           "title": {
             "type": "string",
@@ -1216,80 +1249,6 @@
               "Other"
             ],
             "type": "string"
-          },
-          "notes": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "TurnoverItem": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "nullable": true
-          },
-          "amount": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "YourCropItem": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "cropId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "commonName": {
-            "type": "string",
-            "nullable": true
-          },
-          "amount": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "databaseId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "location": {
-            "type": "string",
-            "nullable": true
-          },
-          "planted": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "lastWatered": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "lastFertilized": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "lastPruned": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
-          },
-          "lastHarvested": {
-            "type": "string",
-            "format": "date-time",
-            "nullable": true
           },
           "notes": {
             "type": "string",

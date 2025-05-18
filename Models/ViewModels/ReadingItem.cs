@@ -1,10 +1,10 @@
 ﻿namespace Models
 {
-    public class MeasurementItem
+    public class ReadingItem
     {
         public string Title { get; set; }
-        public int Id { get; set; }
-        public int BatchId { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid BatchId { get; set; }
         public SoilDryness SoilDryness { get; set; }
         public float SoilPH { get; set; }
         public HealthStatus HealthStatus { get; set; }

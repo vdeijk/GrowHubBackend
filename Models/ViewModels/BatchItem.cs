@@ -2,10 +2,10 @@
 
 namespace Models
 {
-    public class YourCropItem
+    public class BatchItem
     {
-        public int? Id { get; set; }
-        public int? CropId { get; set; }
+        public Guid? Id { get; set; } = Guid.NewGuid();
+        public Guid? CropId { get; set; }
         public string CommonName { get; set; } = string.Empty;
         public int Amount { get; set; }
         public int DatabaseId { get; set; }

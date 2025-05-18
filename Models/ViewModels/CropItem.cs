@@ -2,10 +2,10 @@
 
 namespace Models.ViewModels
 {
-    public class PlantItem
+    public class CropItem
     {
         public string CommonName { get; set; } = string.Empty;
-        public int? Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         public int WaterCycle { get; set; }
         public int PruningCycle { get; set; }
         public int FertilizationCycle { get; set; }

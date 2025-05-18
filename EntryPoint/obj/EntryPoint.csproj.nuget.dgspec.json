@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -152,6 +156,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[8.1.0, )"
@@ -225,6 +233,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -299,6 +311,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

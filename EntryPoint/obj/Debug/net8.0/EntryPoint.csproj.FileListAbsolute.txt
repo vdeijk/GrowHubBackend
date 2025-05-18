@@ -126,7 +126,6 @@ C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\FarmBackend\obj\Debug\net8.0\
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\FarmBackend\obj\Debug\net8.0\ref\EntryPoint.dll
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\out\out\web.config
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\out\web.config
-C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\appsettings.json
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\out\appsettings.Development.json
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\out\appsettings.json
@@ -187,3 +186,9 @@ C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\obj\Debug\net8.0\r
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\obj\Debug\net8.0\EntryPoint.pdb
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\obj\Debug\net8.0\EntryPoint.genruntimeconfig.cache
 C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\obj\Debug\net8.0\ref\EntryPoint.dll
+C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\Snappier.dll
+C:\Users\Gebruiker\repos\Farming BE\GrowHubBackend\EntryPoint\bin\Debug\net8.0\ZstdSharp.dll
